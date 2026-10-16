@@ -1,0 +1,76 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+ @import '~semantic-ui-css/semantic.min.css';
+ @import '../styles/colors.scss';
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: $color-blue2;
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//
+// a.website {
+//   color: white;
+// }
+//
+// a.update {
+//   color: $color-blue1;
+//   cursor: pointer;
+// }
+//
+// a:hover {
+//   color: $color-green;
+// }
+//
+h2.ui.header {
+  color: white;
+}
+
+h3.ui.header {
+  color: white;
+}
+
+.ui.segment {
+  color: white;
+  background-color: $color-blue1;
+}
+
+.ui.secondary.pointing.menu {
+  color: white;
+  background-color: $color-blue3;
+}
+
+.ui.secondary.pointing.menu .item {
+  color: white;
+}
+
+.ui.secondary.pointing.menu:hover .item:hover {
+  color: white;
+  border-color: white;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  color: white;
+  border-color: white;
+}
+
+.ui.tab {
+  background-color: $color-blue3;
+}
+
+.ui.statistic>.label, .ui.statistics .statistic>.label {
+  color: white;
+}
+
+.ui.statistic>.value, .ui.statistics .statistic>.value {
+  color: white;
+}

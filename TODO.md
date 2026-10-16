@@ -1,0 +1,6 @@
+- [ ] Look at row groups per lap
+- [x] Unique sessionID nanoid each time the packetSessionID changes rather than use the - packetSessionID for writers
+- [x] Add track length
+- [x] Remove 0 sessionID
+- [ ] Add session details and particiapnt details to the metadata
+- [ ] Look at adding constants to the columnmetadata

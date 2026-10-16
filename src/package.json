@@ -1,0 +1,17 @@
+{
+  "name": "racehub-client",
+  "productName": "RaceHubClient",
+  "description": "RaceHub Client",
+  "version": "0.3.14",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Michael Sansoni",
+    "url": "https://racehub.io"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "SEE LICENSE IN LICENSING.md",
+  "dependencies": {}
+}
